@@ -33,4 +33,22 @@
     tick();
     setInterval(tick, 1000);
   }
+
+  const motionOk = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (motionOk) {
+    const tiltables = document.querySelectorAll(".stage-visual, .promo-fx");
+    const setTilt = (el, x, y) => {
+      el.style.setProperty("--tilt-x", y.toFixed(2) + "deg");
+      el.style.setProperty("--tilt-y", x.toFixed(2) + "deg");
+    };
+    tiltables.forEach((el) => {
+      el.addEventListener("pointermove", (e) => {
+        const r = el.getBoundingClientRect();
+        const x = ((e.clientX - r.left) / r.width - 0.5) * 14;
+        const y = ((e.clientY - r.top) / r.height - 0.5) * -10;
+        setTilt(el, x, y);
+      });
+      el.addEventListener("pointerleave", () => setTilt(el, 0, 0));
+    });
+  }
 })();

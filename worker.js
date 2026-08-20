@@ -28,6 +28,13 @@ export default {
       url.pathname = next;
       return Response.redirect(url.toString(), 301);
     }
-    return env.ASSETS.fetch(request);
+    const res = await env.ASSETS.fetch(request);
+    const path = url.pathname;
+    if (path === "/" || path.endsWith(".html") || path.endsWith(".css") || path.endsWith(".js") || path.endsWith(".webmanifest")) {
+      const out = new Response(res.body, res);
+      out.headers.set("Cache-Control", "public, max-age=0, must-revalidate");
+      return out;
+    }
+    return res;
   }
 };

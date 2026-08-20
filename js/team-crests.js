@@ -178,7 +178,8 @@
   }
   var css = document.createElement("style");
   css.textContent =
-    ".team-crest{width:32px;height:32px;flex:0 0 32px;display:block;object-fit:contain;background:#fff;border-radius:50%;padding:2px;box-shadow:0 0 0 1px rgba(255,255,255,.2)}" +
+    ".team-crest{width:32px;height:32px;flex:0 0 32px;display:block;object-fit:contain;background:#fff;border-radius:50%;padding:2px;box-shadow:0 0 0 1px rgba(255,255,255,.2);transition:transform .45s cubic-bezier(.18,1.15,.32,1)}" +
+    ".odds-row:hover .team-crest{transform:scale(1.08)}" +
     ".team-crest-wrap{display:inline-flex}" +
     ".odds-match,.match-teams,.market-teams{display:flex;align-items:center;flex-wrap:wrap;gap:.45rem .55rem}" +
     ".team{display:inline-flex;align-items:center;gap:.4rem}" +

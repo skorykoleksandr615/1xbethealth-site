@@ -1,0 +1,28 @@
+{
+  "name": "1xBet Official — Sports Betting, Top Slots & Live Casino",
+  "short_name": "1xBet",
+  "description": "1xBet login, register, top 10 world slots, sports betting odds, live casino, Crash, Plinko and Aviator.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#041929",
+  "theme_color": "#1A56C4",
+  "categories": ["games", "entertainment", "sports"],
+  "icons": [
+    {
+      "src": "assets/brand/1xbet-logo.jpg",
+      "sizes": "240x240",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/og-cover.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

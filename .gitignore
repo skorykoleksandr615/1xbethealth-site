@@ -1,0 +1,4 @@
+tools/
+.git
+*.ps1
+_*.ps1

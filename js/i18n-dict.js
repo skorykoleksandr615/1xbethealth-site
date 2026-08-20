@@ -36,6 +36,7 @@ window.HUB_I18N_DICT = {
 "HELP":{de:"HILFE",ru:"ПОМОЩЬ",uk:"ДОПОМОГА",pl:"POMOC",es:"AYUDA",pt:"AJUDA",fr:"AIDE",it:"AIUTO",tr:"YARDIM",nl:"HULP"},
 "Official":{de:"Offiziell",ru:"Официально",uk:"Офіційно",pl:"Oficjalnie",es:"Oficial",pt:"Oficial",fr:"Officiel",it:"Ufficiale",tr:"Resmi",nl:"Officieel"},
 "Play Now":{de:"Jetzt spielen",ru:"Играть",uk:"Грати",pl:"Graj teraz",es:"Jugar ahora",pt:"Jogar agora",fr:"Jouer",it:"Gioca ora",tr:"Hemen oyna",nl:"Speel nu"},
+"Play":{de:"Spielen",ru:"Играть",uk:"Грати",pl:"Graj",es:"Jugar",pt:"Jogar",fr:"Jouer",it:"Gioca",tr:"Oyna",nl:"Speel"},
 "Login and Play":{de:"Einloggen und spielen",ru:"Войти и играть",uk:"Увійти й грати",pl:"Zaloguj i graj",es:"Entra y juega",pt:"Entrar e jogar",fr:"Connexion et jeu",it:"Accedi e gioca",tr:"Giriş yap ve oyna",nl:"Inloggen en spelen"},
 "Registration bonus":{de:"Registrierungsbonus",ru:"Бонус за регистрацию",uk:"Бонус за реєстрацію",pl:"Bonus rejestracyjny",es:"Bono de registro",pt:"Bónus de registo",fr:"Bonus d'inscription",it:"Bonus registrazione",tr:"Kayıt bonusu",nl:"Registratiebonus"},
 "View Odds":{de:"Quoten ansehen",ru:"Смотреть коэффициенты",uk:"Дивитись коефіцієнти",pl:"Zobacz kursy",es:"Ver cuotas",pt:"Ver odds",fr:"Voir les cotes",it:"Vedi quote",tr:"Oranları gör",nl:"Odds bekijken"},
